@@ -4,7 +4,7 @@ from agent import Agent
 
 class Environment():
 
-    def __init__(self, env, agent):
+    def __init__(self):
         self.env = env
         self.agent = agent
         PROBLEM = 'CartPole-v0'
@@ -34,3 +34,6 @@ class Environment():
 
             if done: 
                 break
+
+
+envi = Environment()
